@@ -15,6 +15,7 @@
 		729EBC4720634D24008D2381 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 729EBC4620634D24008D2381 /* main.m */; };
 		729EBC5120634D24008D2381 /* MoreActionSheetTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 729EBC5020634D24008D2381 /* MoreActionSheetTests.m */; };
 		729EBC5C20634D24008D2381 /* MoreActionSheetUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 729EBC5B20634D24008D2381 /* MoreActionSheetUITests.m */; };
+		729EBC7420639775008D2381 /* MoreActionSheetView.m in Sources */ = {isa = PBXBuildFile; fileRef = 729EBC7220639775008D2381 /* MoreActionSheetView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		729EBC5720634D24008D2381 /* MoreActionSheetUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MoreActionSheetUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		729EBC5B20634D24008D2381 /* MoreActionSheetUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MoreActionSheetUITests.m; sourceTree = "<group>"; };
 		729EBC5D20634D24008D2381 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		729EBC7220639775008D2381 /* MoreActionSheetView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MoreActionSheetView.m; sourceTree = "<group>"; };
+		729EBC7320639775008D2381 /* MoreActionSheetView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoreActionSheetView.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,7 @@
 		729EBC3620634D23008D2381 /* MoreActionSheet */ = {
 			isa = PBXGroup;
 			children = (
+				729EBC7120639775008D2381 /* MoreActionSheetView */,
 				729EBC3720634D23008D2381 /* AppDelegate.h */,
 				729EBC3820634D23008D2381 /* AppDelegate.m */,
 				729EBC3A20634D23008D2381 /* ViewController.h */,
@@ -130,6 +134,15 @@
 				729EBC5D20634D24008D2381 /* Info.plist */,
 			);
 			path = MoreActionSheetUITests;
+			sourceTree = "<group>";
+		};
+		729EBC7120639775008D2381 /* MoreActionSheetView */ = {
+			isa = PBXGroup;
+			children = (
+				729EBC7320639775008D2381 /* MoreActionSheetView.h */,
+				729EBC7220639775008D2381 /* MoreActionSheetView.m */,
+			);
+			path = MoreActionSheetView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -266,6 +279,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				729EBC3C20634D23008D2381 /* ViewController.m in Sources */,
+				729EBC7420639775008D2381 /* MoreActionSheetView.m in Sources */,
 				729EBC4720634D24008D2381 /* main.m in Sources */,
 				729EBC3920634D23008D2381 /* AppDelegate.m in Sources */,
 			);
@@ -431,6 +445,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X62QS6YH49;
 				INFOPLIST_FILE = MoreActionSheet/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = hesongze.MoreActionSheet;
@@ -444,6 +459,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X62QS6YH49;
 				INFOPLIST_FILE = MoreActionSheet/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = hesongze.MoreActionSheet;
